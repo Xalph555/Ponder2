@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://1n0so4g6ucne"]
+
+[ext_resource type="Texture2D" uid="uid://couta4yktgw1h" path="res://icon.svg" id="1_ore2v"]
+[ext_resource type="Script" path="res://Common/Temp/character_as_weight.gd" id="1_pxlv5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v6cgi"]
+
+[node name="CharacterAsWeight" type="CharacterBody2D"]
+script = ExtResource("1_pxlv5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.992157, 0.521569, 0, 1)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("1_ore2v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_v6cgi")

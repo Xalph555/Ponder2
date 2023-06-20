@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlnqwluug08sa"]
+
+[ext_resource type="Script" path="res://Common/Items/FishingRod/FishingRod.gd" id="1_3owgw"]
+
+[node name="FishingRod" type="Node2D"]
+script = ExtResource("1_3owgw")

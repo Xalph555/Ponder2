@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://lvx7qosko02k"]
+
+[ext_resource type="Script" path="res://Common/Player/player_movement_rigid_body.gd" id="1_wllol"]
+
+[node name="PlayerMovementRigidBody" type="Node"]
+script = ExtResource("1_wllol")
